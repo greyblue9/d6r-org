@@ -1,0 +1,181 @@
+body {
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.intro {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #155692;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background: #1d4d7a linear-gradient(#1b527e, #4394b4) repeat scroll 0 0;
+    color: #fff;
+    font-family: "Segoe UI",Roboto,Arial,Helvetica,sans-serif;
+    padding: 10pt 0 5pt;
+}
+
+#banner_title {
+    border-collapse: collapse;
+    border-right: 9px solid transparent;
+    display: table-cell;
+    font-size: 20pt;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 29pt;
+    vertical-align: baseline;
+}
+
+#content {
+    padding: 20px;
+}
+
+.section {
+    background: rgb(240, 240, 240) none repeat scroll 0 0;
+    box-shadow: 0 1pt 7pt rgba(0, 0, 0, 0.13);
+    font-weight: bold;
+    margin-bottom: 24pt;
+    padding: 3px 5px 5px;
+}
+
+.indent {
+    margin: 16px 32px;
+}
+
+.thumbnail {
+    float: left;
+}
+
+.desc {
+    color: #715f57;
+    float: left;
+    font-size: 10pt;
+    line-height: 13pt;
+    margin-bottom: 20pt;
+    margin-top: -2.5pt;
+    width: 400px;
+}
+
+.section_desc {
+    color: rgb(80, 80, 80);
+    font-size: 9.5pt;
+    font-weight: normal;
+}
+
+.imagename {
+    border-bottom: 0 none;
+    color: #54433b;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+}
+
+.clear {
+    clear: both;
+    height: 4pt;
+    overflow: hidden;
+}
+
+.banner a {
+    border: 1px solid transparent;
+    bottom: 3px;
+    box-shadow: 1px 3px 3px rgba(15, 47, 77, 0.59);
+    color: #000;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 4pt;
+    margin-left: 15px;
+    padding: 3px 10px 3px 36px;
+    position: relative;
+    text-decoration: none;
+}
+
+.banner a.email {
+    background: #89d2d6 url("email-icon.png") no-repeat scroll 6px 4px;
+}
+
+.banner a.phone {
+    background: #89d2d6 url("phone-icon.png") no-repeat scroll 5px 3px;
+}
+
+.banner a.resume {
+    background: #89d2d6 url("pdf-icon.png") no-repeat scroll 6px 3px;
+}
+
+div.banner a:hover {
+    background-color: #113c4f;
+    border: 1px solid #000000;
+    box-shadow: 0 3px 4px #010101;
+    color: #ffffff;
+}
+
+#last-updated {
+    color: #566;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 2px;
+    padding-left: 16px;
+}
+
+.banner_subtitle {
+    border-collapse: collapse;
+    border-right: 3pt solid transparent;
+    display: table-cell;
+    float: left;
+    font-size: 11.77pt;
+    height: 14pt;
+    letter-spacing: -0.002em;
+    line-height: 11.77pt;
+}
+
+.banner_text {
+    box-sizing: border-box;
+    display: table-row;
+    float: left;
+    font-family: "Segoe UI Semibold", "Helvetica Neue", "Roboto Regular", "Roboto", "Lucida Grande", "Helvetica", Arial, sans-serif;
+    padding-left: 10pt;
+    text-rendering: optimizelegibility;
+    vertical-align: baseline;
+}
+
+.contact_buttons {
+    box-sizing: border-box;
+    float: right;
+    line-height: 30pt;
+    margin-bottom: 5pt;
+    margin-top: 1pt;
+    padding-right: 10pt;
+    position: relative;
+    text-align: right;
+    top: 10px;
+}
+
+a.soon {
+    font-size: 101.5%;
+    font-weight: 100;
+    opacity: 0.667;
+}
+
+.indent > a {
+    border: 1px solid #aaa;
+    display: inline-block;
+    float: left;
+    margin-bottom: 9pt;
+    margin-right: 13pt;
+}
+
+.indent > a:hover {
+    border-color: #555;
+}
